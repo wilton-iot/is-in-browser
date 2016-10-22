@@ -1,9 +1,8 @@
 import test from 'tape';
-import myModule from '../src/index';
+import isBrowser from '../src/index';
 
 
-test('Your module', t => {
-    t.plan(1);
-    let truthBomb = myModule();
-    t.equal(false, truthBomb, 'works as expected...');
+test('isInBrowser', t => {
+    t.equal(false, isBrowser, 'works as expected in Node');
+    t.end();
 });
