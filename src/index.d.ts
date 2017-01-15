@@ -1,2 +1,2 @@
-declare const isInBroswer: boolean;
-export default isInBroswer;
+declare const isInBrowser: boolean;
+export default isInBrowser;
